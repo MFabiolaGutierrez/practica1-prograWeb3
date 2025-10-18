@@ -1,0 +1,19 @@
+<!-- Univ. Mayra Fabiola Gutierrez Herrera - CI: 13789973 LP -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de Pokémon</title>
+</head>
+<body>
+  <h2>Galería de Pokémon</h2>
+  <input id="filtro" placeholder="Filtrar por nombre">
+  <button onclick="mostrarPokemons()">Buscar</button>
+  <div id="contenedor"></div>
+
+  <button onclick="pagina-- > 0 ? mostrarPokemons() : pagina = 0">Anterior</button>
+  <button onclick="pagina++ ; mostrarPokemons()">Siguiente</button>
+
+  <script src="ejercicio5.js"></script>
+</body>
+</html>
